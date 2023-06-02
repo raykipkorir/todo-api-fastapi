@@ -19,4 +19,3 @@ def get_db():
 from apps.tasks.routers import tasks_router
 
 app.include_router(router=tasks_router)
-

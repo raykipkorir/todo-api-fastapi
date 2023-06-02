@@ -22,4 +22,3 @@ class Task(TaskBase):
 
     class Config:
         orm_mode = True
-        
