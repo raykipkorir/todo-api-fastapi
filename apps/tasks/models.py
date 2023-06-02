@@ -12,4 +12,3 @@ class Task(Base):
     name = Column(String)
     completed = Column(Boolean, default=False)
     created_at = Column(DateTime, default=datetime.now())
-    
